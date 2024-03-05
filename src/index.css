@@ -1,0 +1,16 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*::-webkit-scrollbar {
+  display: none; /* Для WebKit (Chrome, Safari, Opera) */
+}
+
+:root {
+  background-color: #0d0e0d;
+  scrollbar-width: none; /* Для Firefox */
+  box-sizing: border-box;
+  flex-shrink: 0;
+}

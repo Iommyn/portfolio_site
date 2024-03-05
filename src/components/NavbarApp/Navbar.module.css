@@ -1,0 +1,19 @@
+nav {
+    @apply  mb-[180px]
+}
+
+.container {
+    @apply flex justify-center items-center my-[35px] text-center
+}
+
+.logo {
+    @apply mr-[370px] text-Logo font-semibold text-[19px] cursor-default hover:scale-110 duration-500 hover:animate-pulse
+}
+
+.navigation {
+    @apply text-gray-200 text-[16px] font-medium space-x-[60px]
+}
+
+.nav_link {
+    @apply hover:text-gray-700 duration-300
+}
