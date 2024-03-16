@@ -7,7 +7,7 @@ nav {
 }
 
 .logo {
-    @apply mr-[370px] text-Logo font-semibold text-[19px] cursor-default hover:scale-110 duration-500 hover:animate-pulse
+    @apply mr-[430px] text-Logo font-semibold text-[19px] hover:scale-110 duration-500 hover:animate-pulse
 }
 
 .navigation {
@@ -15,5 +15,5 @@ nav {
 }
 
 .nav_link {
-    @apply hover:text-gray-700 duration-300
+    @apply hover:text-gray-700 duration-300 cursor-none
 }

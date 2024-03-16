@@ -1,18 +1,26 @@
 
+section {
+    @apply mb-[200px]
+}
+
 .wrapper {
     @apply flex justify-center
 }
 
 .title {
-    @apply text-[50px] leading-[1em] font-semibold text-white cursor-default mr-[90px]
+    @apply text-[50px] leading-[1em] font-semibold text-white mr-[90px]
 }
 
 .description {
-    @apply text-[19px] leading-[1.3em] mt-8 font-semibold text-gray-500 cursor-default
+    @apply text-[19px] leading-[1.3em] mt-8 font-semibold text-gray-500
 }
 
 .button {
-    @apply outline outline-green-600 mt-12 bg-green-400 py-2 px-3 rounded-2xl shadow-lg shadow-green-400/50  text-[17px] font-bold text-green-950 cursor-pointer absolute duration-200 hover:py-[12px]
+    @apply outline outline-green-600 mt-12 bg-green-400 py-2 px-3 rounded-2xl shadow-lg shadow-green-400/50  text-[17px] font-bold text-green-950 absolute duration-200 hover:py-[12px]
+}
+
+.button > a {
+    @apply cursor-none
 }
 
 .animate_avatar {
